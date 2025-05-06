@@ -1,0 +1,15 @@
+{
+  "id": "letterboxd.recommended_drama",
+  "version": "1.0.0",
+  "name": "Recommended Drama",
+  "description": "A powerful set of dramatic films, curated with care.",
+  "resources": ["catalog"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "recommended_drama",
+      "name": "Recommended Drama"
+    }
+  ]
+}
