@@ -10,6 +10,11 @@
       "type": "movie",
       "id": "recommended_drama",
       "name": "Movies Everyone Should Watch"
+    },
+    {
+      "type": "movie",
+      "id": "letterboxd_everyone_should_watch",
+      "name": "Movies Everyone Should Watch"
     }
   ]
 }
