@@ -3,9 +3,9 @@ import csv, requests, json, os, time
 
 # ——— CONFIG ———
 TMDB_API_KEY  = '9eb9d41e0b5b419826bf6f7aed1a3d37'
-CSV_FILE      = 'movies-everyone-should-watch-at-least-once.csv'
+CSV_FILE      = 'recommended-drama.csv'
 OUTPUT_DIR    = os.path.join('catalog','movie')
-OUTPUT_FILE   = os.path.join(OUTPUT_DIR,'letterboxd_everyone_should_watch.json')
+OUTPUT_FILE   = os.path.join(OUTPUT_DIR,'recommended-drama.json')
 HEADERS       = {'User-Agent':'Mozilla/5.0'}
 # ————————————
 
