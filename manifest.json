@@ -13,8 +13,8 @@
     },
     {
       "type": "movie",
-      "id": "recommended_drama_n",
-      "name": "Recommended Drama"
+      "id": "watchlist",
+      "name": "WatchList"
     }
   ]
 }
