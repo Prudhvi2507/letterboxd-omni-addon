@@ -1,20 +1,20 @@
 {
-  "id": "letterboxd.everyone_should_watch",
-  "version": "1.0.0",
-  "name": "Movies Everyone Should Watch",
-  "description": "A curated list of must‑watch films.",
+  "id": "letterboxd.dual_catalog",
+  "version": "1.1.0",
+  "name": "Letterboxd Curated Collections",
+  "description": "Multiple curated movie lists from Letterboxd.",
   "resources": ["catalog"],
   "types": ["movie"],
   "catalogs": [
     {
       "type": "movie",
-      "id": "recommended_drama",
+      "id": "letterboxd_everyone_should_watch",
       "name": "Movies Everyone Should Watch"
     },
     {
       "type": "movie",
-      "id": "letterboxd_everyone_should_watch",
-      "name": "Movies Everyone Should Watch"
+      "id": "recommended_drama",
+      "name": "Recommended Drama"
     }
   ]
 }
