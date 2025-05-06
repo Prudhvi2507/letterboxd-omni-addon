@@ -1,18 +1,172 @@
 {
   "metas": [
     {
-      "id": "tmdb:1239511",
+      "id": "tmdb:769",
       "type": "movie",
-      "name": "Lucky Baskhar",
-      "poster": "https://image.tmdb.org/t/p/w500/a47JQFl9L7VDa79tEvnTOJe0rPa.jpg",
-      "description": "A cash-strapped bank cashier embarks on a risky investment scheme..."
+      "name": "GoodFellas",
+      "poster": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+      "description": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway."
+    },
+    {
+      "id": "tmdb:475557",
+      "type": "movie",
+      "name": "Joker",
+      "poster": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+      "description": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure."
+    },
+    {
+      "id": "tmdb:496243",
+      "type": "movie",
+      "name": "Parasite",
+      "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "description": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident."
+    },
+    {
+      "id": "tmdb:473033",
+      "type": "movie",
+      "name": "Uncut Gems",
+      "poster": "https://image.tmdb.org/t/p/w500/6XN1vxHc7kUSqNWtaQKN45J5x2v.jpg",
+      "description": "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets that could lead to the windfall of a lifetime. Howard must perform a precarious high-wire act, balancing business, family, and encroaching adversaries on all sides in his relentless pursuit of the ultimate win."
+    },
+    {
+      "id": "tmdb:244786",
+      "type": "movie",
+      "name": "Whiplash",
+      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity."
+    },
+    {
+      "id": "tmdb:37799",
+      "type": "movie",
+      "name": "The Social Network",
+      "poster": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+      "description": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend."
+    },
+    {
+      "id": "tmdb:37165",
+      "type": "movie",
+      "name": "The Truman Show",
+      "poster": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+      "description": "Every second of every day, from the moment he was born, for the last thirty years, Truman Burbank has been the unwitting star of the longest running, most popular documentary-soap opera in history. The picture-perfect town of Seahaven that he calls home is actually a gigantic soundstage. Truman's friends and family - everyone he meets, in fact - are actors. He lives every moment under the unblinking gaze of thousands of hidden TV cameras."
+    },
+    {
+      "id": "tmdb:278",
+      "type": "movie",
+      "name": "The Shawshank Redemption",
+      "poster": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "description": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope."
+    },
+    {
+      "id": "tmdb:238",
+      "type": "movie",
+      "name": "The Godfather",
+      "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
+    },
+    {
+      "id": "tmdb:106646",
+      "type": "movie",
+      "name": "The Wolf of Wall Street",
+      "poster": "https://image.tmdb.org/t/p/w500/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+      "description": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography."
+    },
+    {
+      "id": "tmdb:949",
+      "type": "movie",
+      "name": "Heat",
+      "poster": "https://image.tmdb.org/t/p/w500/umSVjVdbVwtx5ryCA2QXL44Durm.jpg",
+      "description": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence."
+    },
+    {
+      "id": "tmdb:146233",
+      "type": "movie",
+      "name": "Prisoners",
+      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+      "description": "Keller Dover is facing every parent’s worst nightmare. His six-year-old daughter, Anna, is missing, together with her young friend, Joy, and as minutes turn to hours, panic sets in. The only lead is a dilapidated RV that had earlier been parked on their street."
+    },
+    {
+      "id": "tmdb:522627",
+      "type": "movie",
+      "name": "The Gentlemen",
+      "poster": "https://image.tmdb.org/t/p/w500/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
+      "description": "American expat Mickey Pearson has built a highly profitable marijuana empire in London. When word gets out that he’s looking to cash out of the business forever it triggers plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
+    },
+    {
+      "id": "tmdb:1118224",
+      "type": "movie",
+      "name": "Maharaja",
+      "poster": "https://image.tmdb.org/t/p/w500/3WgxA2nSzAgMR4DYDty0O9wx68x.jpg",
+      "description": "A barber seeks vengeance after his home is burglarized, cryptically telling police his \"Lakshmi\" has been taken, leaving them uncertain if it's a person or object, jeer at his request until they learn what they're really looking for."
+    },
+    {
+      "id": "tmdb:110415",
+      "type": "movie",
+      "name": "Snowpiercer",
+      "poster": "https://image.tmdb.org/t/p/w500/nzccOvhrLGI0nvAknCEAk8bchD9.jpg",
+      "description": "In a future where a failed global-warming experiment kills off most life on the planet, a class system evolves aboard the Snowpiercer; a train that travels around the globe via a perpetual-motion engine."
+    },
+    {
+      "id": "tmdb:933260",
+      "type": "movie",
+      "name": "The Substance",
+      "poster": "https://image.tmdb.org/t/p/w500/evdF1vmLzuzH8EFblqAXBXWRGSi.jpg",
+      "description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself."
+    },
+    {
+      "id": "tmdb:937287",
+      "type": "movie",
+      "name": "Challengers",
+      "poster": "https://image.tmdb.org/t/p/w500/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
+      "description": "Tennis player turned coach Tashi has taken her husband, Art, and transformed him into a world-famous Major champion. To jolt him out of his recent losing streak, she signs him up for a \"Challenger\" event — close to the lowest level of pro tournament — where he finds himself standing across the net from his former best friend and Tashi's former boyfriend."
     },
     {
       "id": "tmdb:1064213",
       "type": "movie",
       "name": "Anora",
       "poster": "https://image.tmdb.org/t/p/w500/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg",
-      "description": "A young sex worker from Brooklyn gets her chance at a Cinderella story..."
+      "description": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled."
+    },
+    {
+      "id": "tmdb:1239511",
+      "type": "movie",
+      "name": "Lucky Baskhar",
+      "poster": "https://image.tmdb.org/t/p/w500/a47JQFl9L7VDa79tEvnTOJe0rPa.jpg",
+      "description": "A cash-strapped bank cashier embarks on a risky investment scheme and soon gets drawn into the murky world of money laundering."
+    },
+    {
+      "id": "tmdb:912480",
+      "type": "movie",
+      "name": "Red Rooms",
+      "poster": "https://image.tmdb.org/t/p/w500/uBJvbf0g9rcsYElcwZCMYU0Vrj8.jpg",
+      "description": "The high-profile case of serial killer Ludovic Chevalier has just gone to trial, and Kelly-Anne is obsessed. When reality blurs with her morbid fantasies, she goes down a dark path to seek the final piece of the case’s puzzle."
+    },
+    {
+      "id": "tmdb:1000837",
+      "type": "movie",
+      "name": "I'm Still Here",
+      "poster": "https://image.tmdb.org/t/p/w500/gZnsMbhCvhzAQlKaVpeFRHYjGyb.jpg",
+      "description": "In 1971, military dictatorship in Brazil reaches its height. The Paiva family — Rubens, Eunice, and their five children — live in a beachside house in Rio, open to all their friends. One day, Rubens is taken for questioning and does not return."
+    },
+    {
+      "id": "tmdb:1026227",
+      "type": "movie",
+      "name": "There's Still Tomorrow",
+      "poster": "https://image.tmdb.org/t/p/w500/4Hi7yjiQjokEDStT1MOj5rPgRfW.jpg",
+      "description": "In postwar Rome, a working-class woman dreams of a better future for herself and her daughter while facing abuse at the hands of her domineering husband. When a mysterious letter arrives, she discovers the courage to change the circumstances of her life."
+    },
+    {
+      "id": "tmdb:1451075",
+      "type": "movie",
+      "name": "Dragón",
+      "poster": "https://image.tmdb.org/t/p/w500/2UsSIs5Min8nt9ilYeUTnSDDSVr.jpg",
+      "description": "Two Bolivian teenagers escape reality by playing Dragon, a retro video game. But, after stealing the treasure of a marginal trapped in the ‘90s, they unleash their fury and he swears revenge, chasing them to burn them alive."
+    },
+    {
+      "id": "tmdb:592898",
+      "type": "movie",
+      "name": "Jersey",
+      "poster": "https://image.tmdb.org/t/p/w500/bU9q9yVtxeBiC0Do27CekHXNE6D.jpg",
+      "description": "After his career fails to take off, a gifted cricketer in his mid-thirties decides that he’s not ready to give up quite yet."
     }
   ]
 }
