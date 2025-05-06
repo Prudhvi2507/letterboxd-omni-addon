@@ -3,10 +3,8 @@ import pandas as pd, requests, json, os, time
 
 # ——— CONFIG ———
 TMDB_API_KEY  = '9eb9d41e0b5b419826bf6f7aed1a3d37'
-CSV_FILE      = 'watchlist.csv'  # Export your Excel as CSV first
-OUTPUT_DIR    = os.path.join('catalog', 'movie')
-OUTPUT_FILE   = os.path.join(OUTPUT_DIR, 'recommended_drama_v2.json')
 HEADERS       = {'User-Agent': 'Mozilla/5.0'}
+OUTPUT_DIR    = os.path.join('catalog', 'movie')
 # ————————————
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -34,7 +32,15 @@ def tmdb_search(title, year):
     return None
 
 def main():
-    df = pd.read_csv(CSV_FILE)
+    csv_file = input("Enter the CSV filename (with .csv extension): ").strip()
+    if not os.path.isfile(csv_file):
+        print(f"Error: '{csv_file}' does not exist.")
+        return
+
+    base_name = os.path.splitext(os.path.basename(csv_file))[0]
+    output_file = os.path.join(OUTPUT_DIR, f"{base_name}.json")
+
+    df = pd.read_csv(csv_file)
     metas = []
 
     for idx, row in df.iterrows():
@@ -51,9 +57,9 @@ def main():
             print("FAIL")
         time.sleep(0.25)
 
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as out:
+    with open(output_file, 'w', encoding='utf-8') as out:
         json.dump({'metas': metas}, out, indent=2, ensure_ascii=False)
-    print(f"\nWrote {len(metas)} entries to {OUTPUT_FILE}")
+    print(f"\nWrote {len(metas)} entries to {output_file}")
 
 if __name__ == '__main__':
     main()

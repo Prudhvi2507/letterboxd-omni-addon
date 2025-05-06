@@ -3,10 +3,8 @@ import csv, requests, json, os, time
 
 # ——— CONFIG ———
 TMDB_API_KEY  = '9eb9d41e0b5b419826bf6f7aed1a3d37'
-CSV_FILE      = 'recommended-drama.csv'
-OUTPUT_DIR    = os.path.join('catalog','movie')
-OUTPUT_FILE   = os.path.join(OUTPUT_DIR,'recommended-drama.json')
-HEADERS       = {'User-Agent':'Mozilla/5.0'}
+HEADERS       = {'User-Agent': 'Mozilla/5.0'}
+OUTPUT_DIR    = os.path.join('catalog', 'movie')
 # ————————————
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -29,19 +27,29 @@ def tmdb_search(title, year):
                 f"https://image.tmdb.org/t/p/w500{t['poster_path']}"
                 if t.get('poster_path') else ""
             ),
-            'description': t.get('overview','')
+            'description': t.get('overview', '')
         }
     return None
 
 def main():
-    # Read all lines, locate the header row that starts with "Position,"
-    with open(CSV_FILE, encoding='utf-8') as f:
+    csv_file = input("Enter the CSV filename (with .csv extension): ").strip()
+    if not os.path.isfile(csv_file):
+        print(f"Error: '{csv_file}' does not exist.")
+        return
+
+    base_name = os.path.splitext(os.path.basename(csv_file))[0]
+    output_file = os.path.join(OUTPUT_DIR, f"{base_name}.json")
+
+    with open(csv_file, encoding='utf-8') as f:
         lines = f.readlines()
+
+    # Look for header that starts with "Position,"
     header_idx = next(i for i, line in enumerate(lines) if line.startswith('Position,'))
-    data_lines = lines[header_idx:]  # from header onward
+    data_lines = lines[header_idx:]
 
     reader = csv.DictReader(data_lines)
     metas = []
+
     for idx, row in enumerate(reader, 1):
         title = row['Name'].strip()
         year  = row['Year'].strip()
@@ -56,10 +64,9 @@ def main():
             print("FAIL")
         time.sleep(0.25)
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as out:
+    with open(output_file, 'w', encoding='utf-8') as out:
         json.dump({'metas': metas}, out, indent=2, ensure_ascii=False)
-    print(f"\nWrote {len(metas)} entries to {OUTPUT_FILE}")
+    print(f"\nWrote {len(metas)} entries to {output_file}")
 
 if __name__ == '__main__':
     main()
