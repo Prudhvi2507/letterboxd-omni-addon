@@ -1,20 +1,22 @@
 {
-  "id": "custom.letterboxd.omni",
+  "id": "letterboxd.everyone_should_watch",
   "version": "1.0.0",
-  "name": "Letterboxd: Movies Everyone Should Watch Once",
-  "description": "A curated movie list from Letterboxd by couchpotato00",
+  "name": "Movies Everyone Should Watch",
+  "description": "A curated list of 800 must-watch films (starting with 10).",
   "resources": [
-    "catalog",
-    "meta"
+    {
+      "name": "catalog",
+      "type": "movie",
+      "id": "letterboxd_everyone_should_watch",
+      "url": "https://prudhvi2507.github.io/letterboxd-omni-addon/catalog/catalog.json"
+    }
   ],
-  "types": [
-    "movie"
-  ],
+  "types": ["movie"],
   "catalogs": [
     {
       "type": "movie",
       "id": "letterboxd_everyone_should_watch",
-      "name": "Movies Everyone Should Watch Once"
+      "name": "Movies Everyone Should Watch"
     }
   ]
 }
