@@ -1,8 +1,8 @@
 {
-  "id": "letterboxd.multi_catalog",
-  "version": "1.1.0",
-  "name": "Letterboxd Curated Collections",
-  "description": "Curated movie lists for all tastes.",
+  "id": "letterboxd.everyone_should_watch",
+  "version": "1.0.0",
+  "name": "Movies Everyone Should Watch",
+  "description": "A curated list of must‑watch films.",
   "resources": ["catalog"],
   "types": ["movie"],
   "catalogs": [
@@ -10,11 +10,6 @@
       "type": "movie",
       "id": "letterboxd_everyone_should_watch",
       "name": "Movies Everyone Should Watch"
-    },
-    {
-      "type": "movie",
-      "id": "recommended_drama",
-      "name": "Recommended Drama"
     }
   ]
 }
