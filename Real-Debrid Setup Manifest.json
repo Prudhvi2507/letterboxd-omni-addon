@@ -1,0 +1,20 @@
+{
+  "id": "custom.letterboxd.omni",
+  "version": "1.0.0",
+  "name": "Letterboxd: Movies Everyone Should Watch Once",
+  "description": "A curated movie list from Letterboxd by couchpotato00",
+  "resources": [
+    "catalog",
+    "meta"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "letterboxd_everyone_should_watch",
+      "name": "Movies Everyone Should Watch Once"
+    }
+  ]
+}
