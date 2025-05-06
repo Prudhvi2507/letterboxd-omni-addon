@@ -8,7 +8,7 @@
   "catalogs": [
     {
       "type": "movie",
-      "id": "recommended_drama",
+      "id": "letterboxd_everyone_should_watch",
       "name": "Movies Everyone Should Watch"
     }
   ]
