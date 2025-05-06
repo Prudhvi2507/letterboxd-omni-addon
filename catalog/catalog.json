@@ -1,80 +1,72 @@
-# Create a sample catalog.json file with 10 films in Omni-compatible format
-catalog = [
-    {
-        "id": "tt0111161",
-        "type": "movie",
-        "name": "The Shawshank Redemption",
-        "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
-        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
-    },
-    {
-        "id": "tt0068646",
-        "type": "movie",
-        "name": "The Godfather",
-        "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-        "description": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
-    },
-    {
-        "id": "tt0071562",
-        "type": "movie",
-        "name": "The Godfather Part II",
-        "poster": "https://image.tmdb.org/t/p/w500/bVq65huQ8vHDd1a4Z37QtuyEvpA.jpg",
-        "description": "The early life and career of Vito Corleone in 1920s New York is portrayed, while his son expands and tightens his grip on his crime syndicate."
-    },
-    {
-        "id": "tt0468569",
-        "type": "movie",
-        "name": "The Dark Knight",
-        "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-        "description": "Batman faces the Joker, a criminal mastermind who plunges Gotham City into anarchy and forces the Dark Knight ever closer to crossing the line between hero and vigilante."
-    },
-    {
-        "id": "tt0108052",
-        "type": "movie",
-        "name": "Schindler's List",
-        "poster": "https://image.tmdb.org/t/p/w500/c8Ass7acuOe4za6DhSattE359gr.jpg",
-        "description": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce."
-    },
-    {
-        "id": "tt0167260",
-        "type": "movie",
-        "name": "The Lord of the Rings: The Return of the King",
-        "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-        "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
-    },
-    {
-        "id": "tt0110912",
-        "type": "movie",
-        "name": "Pulp Fiction",
-        "poster": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
-        "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in tales of violence and redemption."
-    },
-    {
-        "id": "tt1375666",
-        "type": "movie",
-        "name": "Inception",
-        "poster": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
-        "description": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
-    },
-    {
-        "id": "tt0137523",
-        "type": "movie",
-        "name": "Fight Club",
-        "poster": "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
-        "description": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more."
-    },
-    {
-        "id": "tt0080684",
-        "type": "movie",
-        "name": "The Empire Strikes Back",
-        "poster": "https://image.tmdb.org/t/p/w500/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
-        "description": "After the Rebels are brutally overpowered, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader."
-    }
+[
+  {
+    "id": "tt0111161",
+    "type": "movie",
+    "name": "The Shawshank Redemption",
+    "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    "id": "tt0068646",
+    "type": "movie",
+    "name": "The Godfather",
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "description": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+  },
+  {
+    "id": "tt0071562",
+    "type": "movie",
+    "name": "The Godfather Part II",
+    "poster": "https://image.tmdb.org/t/p/w500/bVq65huQ8vHDd1a4Z37QtuyEvpA.jpg",
+    "description": "The early life and career of Vito Corleone in 1920s New York is portrayed, while his son expands and tightens his grip on his crime syndicate."
+  },
+  {
+    "id": "tt0468569",
+    "type": "movie",
+    "name": "The Dark Knight",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "description": "Batman faces the Joker, a criminal mastermind who plunges Gotham City into anarchy and forces the Dark Knight ever closer to crossing the line between hero and vigilante."
+  },
+  {
+    "id": "tt0108052",
+    "type": "movie",
+    "name": "Schindler's List",
+    "poster": "https://image.tmdb.org/t/p/w500/c8Ass7acuOe4za6DhSattE359gr.jpg",
+    "description": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce."
+  },
+  {
+    "id": "tt0167260",
+    "type": "movie",
+    "name": "The Lord of the Rings: The Return of the King",
+    "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+  },
+  {
+    "id": "tt0110912",
+    "type": "movie",
+    "name": "Pulp Fiction",
+    "poster": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in tales of violence and redemption."
+  },
+  {
+    "id": "tt1375666",
+    "type": "movie",
+    "name": "Inception",
+    "poster": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
+    "description": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+  },
+  {
+    "id": "tt0137523",
+    "type": "movie",
+    "name": "Fight Club",
+    "poster": "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
+    "description": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more."
+  },
+  {
+    "id": "tt0080684",
+    "type": "movie",
+    "name": "The Empire Strikes Back",
+    "poster": "https://image.tmdb.org/t/p/w500/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
+    "description": "After the Rebels are brutally overpowered, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader."
+  }
 ]
-
-# Save this as catalog.json
-import json
-with open("/mnt/data/catalog.json", "w") as f:
-    json.dump(catalog, f, indent=2)
-
-"/mnt/data/catalog.json"
