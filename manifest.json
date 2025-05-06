@@ -2,7 +2,7 @@
   "id": "letterboxd.everyone_should_watch",
   "version": "1.0.0",
   "name": "Movies Everyone Should Watch",
-  "description": "A curated list of 800 must‑watch films (10 for now).",
+  "description": "A curated list of must‑watch films.",
   "resources": ["catalog"],
   "types": ["movie"],
   "catalogs": [
