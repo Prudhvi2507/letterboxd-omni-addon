@@ -15,6 +15,16 @@
       "type": "movie",
       "id": "watchlist",
       "name": "WatchList"
+    },
+    {
+      "type": "movie",
+      "id": "favorites",
+      "name": "Favorites"
+    },
+    {
+      "type": "movie",
+      "id": "films",
+      "name": "Likes"
     }
   ]
 }
