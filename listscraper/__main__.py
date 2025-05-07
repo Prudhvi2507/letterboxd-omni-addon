@@ -1,6 +1,5 @@
-from listscraper.cli import cli_arguments
-from listscraper.instance_class import ScrapeInstance
-
+from .cli import cli_arguments
+from .instance_class import ScrapeInstance
 
 def main():
     """
