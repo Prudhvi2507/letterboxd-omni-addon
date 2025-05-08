@@ -25,6 +25,17 @@
       "type": "movie",
       "id": "films",
       "name": "Likes"
+    },
+    {
+      "type": "movie",
+      "id": "for-when-you-want-to-feel-something",
+      "name": "Likes"
+    },
+    {
+      "type": "movie",
+      "id": "letterboxd-one-million-watched-club",
+      "name": "Likes"
     }
+    
   ]
 }
